@@ -3,13 +3,18 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
+
+theme_day: cyberpunk
+theme_night: cyberpunk
+
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  mode: dark
+  theme_day: cyberpunk
+  theme_night: cyberpunk
+  color: red
+  font_size: xs
 
 # SEO
 
@@ -37,15 +42,15 @@ header:
     align: r
     show_logo: true
     show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    show_day_night: false
+    show_search: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Decentralized Damage Mapping Group.'
     license:
       enable: true
       allow_derivatives: false
