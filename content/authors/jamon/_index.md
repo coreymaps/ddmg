@@ -63,7 +63,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigators
+- Coordinators
 ---
 
 I use satellite imagery and geospatial data to learn about short- and long-term effects of climate change, land use, and violent conflict on people and landscapes.
