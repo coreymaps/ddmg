@@ -1,11 +1,11 @@
 ---
 title: "Evaluating war-induced damage to agricultural land in the Gaza Strip since October 2023 using PlanetScope and SkySat imagery"
 authors:
-- He Yin
-- Lina Eklund
+- he
+- lina
 - Dima Habash
 - Mazim Qumsiyeh
-- Jamon Van Den Hoek
+- jamon
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"

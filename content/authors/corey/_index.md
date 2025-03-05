@@ -20,16 +20,16 @@ role: Postdoc
 # Short bio (displayed in user profile at end of posts)
 #bio: Yaddah yaddah.
 
-# interests:
-# - Remote sensing 
-# - Hydrology
-# - Critical physical geography
+interests:
+- Conflict Earth observation
+- Synthetic aperture radar (interferometry)
+
 
 education:
   courses:
   - course: PhD in Earth and Environmental Science
     institution: City University of New York
-    year: expected 2024
+    year: 2025
   - course: MS in Geology
     institution: City University of New York
     #year: some year
@@ -72,6 +72,4 @@ email: ""
 user_groups:
 - Researchers
 ---
-
-I develop methods in satellite remote sensing to study terrestrial hydrologic processes and associated human impacts. Where earth science and geopolitics overlay, I develop insights from remote sensing observations that support scientific research in terrestrial hydrology and diplomatic accountability in the monitoring and management of increasingly scarce freshwater resources.
 
