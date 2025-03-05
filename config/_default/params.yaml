@@ -4,9 +4,6 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 
-theme_day: cyberpunk
-theme_night: cyberpunk
-
 # Appearance
 
 appearance:
@@ -14,7 +11,7 @@ appearance:
   theme_day: cyberpunk
   theme_night: cyberpunk
   color: red
-  font_size: xs
+  font_size: l
 
 # SEO
 
