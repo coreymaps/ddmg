@@ -1,9 +1,9 @@
 ---
 title: "Public health implications of satellite-detected widespread damage to WASH infrastructure in the Gaza Strip"
 authors:
-- Brian Perlman
+- brian
 - Shalean Collins
-- Jamon Van Den Hoek
+- jamon
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
