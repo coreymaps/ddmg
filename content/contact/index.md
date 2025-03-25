@@ -8,8 +8,7 @@ sections:
   - block: contact
     content:
       title: Contact
-#      text:
-#      email: test@example.org
+#      email: "jamon.vandenhoek@oregonstate.edu"
 #      address:
 #        street: 450 Serra Mall
 #        city: Stanford
