@@ -6,7 +6,7 @@ image:
 <p style='text-align: justify;'>
 The Decentralized Damage Mapping Group (DDMG) is an international collaborative initiative focused on leveraging Earth Observation (EO) datasets to develop innovative solutions for damage assessment in conflict and disaster-affected regions.
 
-We aim to advance scientific excellence in monitoring the environmental impacts of armed conflict, foster international collaboration across disciplines and communities, support transparency and reproducibility of conflict impact analysis using EO data, and engage with diverse user groups and stakeholders as we build a knowledge base around DDMG is a decentralized group, in that we are geographically distributed and collaborate in a non-hierarchical, flat organizational structure built around mutual trust, support, and collaboration. 
+We aim to advance scientific excellence in monitoring the environmental impacts of armed conflict, foster international collaboration across disciplines and communities, support transparency and reproducibility of conflict impact analysis using EO data, and engage with diverse user groups and stakeholders as we build a knowledge base around DDMG as a decentralized group, in that we are geographically distributed and collaborate in a non-hierarchical, flat organizational structure built around mutual trust, support, and collaboration. 
 
 Our core team comprises members with expertise in EO data processing, applications, and communication who come from a broad range of backgrounds, including academia, humanitarian NGOs, and open source journalism. Each team member brings unique expertise, contributing to an integrated approach to different types of environmental impacts of armed conflicts. 
 
