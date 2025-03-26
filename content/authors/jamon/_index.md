@@ -4,7 +4,7 @@ title: Jamon Van Den Hoek
 
 # Rich (this should match the folder name)
 authors:
-- Jamon
+- jamon
 
 # Is this the primary user of the site?
 #superuser: true

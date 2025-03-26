@@ -16,7 +16,7 @@ authors:
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2024-04-02T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -52,7 +52,7 @@ Spatial statistical analysis suggests widespread damage to critical civilian inf
 summary:
 
 tags:
-- Source Themes
+- 
 featured: false
 
 # links:
@@ -70,7 +70,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 

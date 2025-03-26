@@ -3,9 +3,9 @@ title: "Evaluating war-induced damage to agricultural land in the Gaza Strip sin
 authors:
 - he
 - lina
+- jamon
 - Dima Habash
 - Mazim Qumsiyeh
-- jamon
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
@@ -31,7 +31,7 @@ abstract: "The ongoing 2023 Israel-Hamas War has severe and far-reaching consequ
 summary:
 
 tags:
-- Source Themes
+- 
 featured: false
 
 # links:
@@ -49,7 +49,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
