@@ -14,18 +14,6 @@ sections:
 
   - block: collection
     content:
-      title: Recent and Upcoming Events
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - event
-    design:
-      view: card
-      columns: '1'
-
-  - block: collection
-    content:
       title: Latest News
       subtitle:
       text:
@@ -39,6 +27,18 @@ sections:
       offset: 0
       order: desc
       page_type: media
+    design:
+      view: card
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Recent and Upcoming Events
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - event
     design:
       view: card
       columns: '1'
