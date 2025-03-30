@@ -10,7 +10,7 @@ appearance:
   mode: dark
   theme_day: cyberpunk
   theme_night: cyberpunk
-  color: red
+  color: 
   font_size: m
   
 
