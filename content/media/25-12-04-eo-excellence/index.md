@@ -1,5 +1,5 @@
 ---
-title: Conflict-monitoring collective wins prestigious European Space Agency Earth observation excellence award 
+title: DDMG wins prestigious European Space Agency Earth observation excellence award 
 date: 2025-04-16
 image:
   focal_point: 'top'
