@@ -10,11 +10,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: "Graduate Student"
+role: "Visual Forensics Journalist"
 
 # Organizations/Affiliations
 organizations:
-- name: "Johns Hopkins University"
+- name: "Washington Post"
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
