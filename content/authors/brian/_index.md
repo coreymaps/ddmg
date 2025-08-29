@@ -14,7 +14,7 @@ role: "Visual Forensics Journalist"
 
 # Organizations/Affiliations
 organizations:
-- name: "Washington Post"
+- name: "The Washington Post"
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
