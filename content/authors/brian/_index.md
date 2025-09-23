@@ -10,11 +10,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: "Visual Forensics Journalist"
+role: "Independent Contractor, Environmental Mapping"
 
 # Organizations/Affiliations
 organizations:
-- name: "The Washington Post"
+- name: ""
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
