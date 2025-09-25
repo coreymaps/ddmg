@@ -14,7 +14,7 @@ role: "Independent Contractor, Environmental Mapping"
 
 # Organizations/Affiliations
 organizations:
-- name: ""
+- name: "Spatial Informatics Group"
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
