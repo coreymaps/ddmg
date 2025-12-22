@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: "Independent Contractor, Environmental Mapping"
+role: "Research Scientist II, Environmental Mapping"
 
 # Organizations/Affiliations
 organizations:
