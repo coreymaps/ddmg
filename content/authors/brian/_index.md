@@ -10,11 +10,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: "Research Scientist II, Environmental Mapping"
+role: "Satellite Imagery Analyst"
 
 # Organizations/Affiliations
 organizations:
-- name: "Spatial Informatics Group"
+- name: "United Nations"
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
