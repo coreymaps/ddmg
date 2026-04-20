@@ -11,3 +11,7 @@ assets/media/.DS_Store
 content/.DS_Store
 content/media/.DS_Store
 content/publication/.DS_Store
+
+# Local Netlify folder
+.netlify
+node_modules/

@@ -19,6 +19,9 @@ main:
   - name: People
     url: people
     weight: 50
+  - name: Data
+    url: data
+    weight: 55
   - name: Contact
     url: contact
     weight: 60

@@ -1,0 +1,90 @@
+{{- define "main" -}}
+
+<article class="article">
+  <div class="article-container">
+
+    <h1 style="text-align: center; margin-top: 2rem;">Data Access</h1>
+
+    <div id="data-gate">
+
+      {{/* Password form - visible by default */}}
+      <div id="pw-form" style="max-width: 400px; margin: 3rem auto; text-align: center;">
+        <p style="margin-bottom: 1.5rem;">
+          This page provides access to DDMG conflict damage datasets.<br>
+          Please enter the access password to continue.
+        </p>
+        <div style="display: flex; gap: 0.5rem; justify-content: center;">
+          <input
+            type="password"
+            id="pw-input"
+            placeholder="Password"
+            autocomplete="off"
+            style="padding: 0.5rem 1rem; border: 1px solid #555; border-radius: 4px; background: transparent; color: inherit; font-size: 1rem;"
+          >
+          <button
+            id="pw-submit"
+            style="padding: 0.5rem 1.5rem; border: none; border-radius: 4px; background: #00bcd4; color: #000; font-weight: bold; cursor: pointer; font-size: 1rem;"
+          >
+            Submit
+          </button>
+        </div>
+        <p id="pw-error" style="color: #f44336; margin-top: 0.75rem; min-height: 1.5em;"></p>
+      </div>
+
+      {{/* Loading spinner - shown while fetching downloads */}}
+      <div id="loading-spinner" style="display: none; text-align: center; margin: 3rem auto;">
+        <div style="display: inline-block; width: 2rem; height: 2rem; border: 3px solid #555; border-top-color: #00bcd4; border-radius: 50%; animation: spin 0.8s linear infinite;"></div>
+        <p style="margin-top: 1rem; color: #aaa;">Loading datasets&hellip;</p>
+      </div>
+      <style>@keyframes spin { to { transform: rotate(360deg); } }</style>
+
+      {{/* Protected content - hidden by default, no GCS URLs in source */}}
+      <div id="data-content" style="display: none;">
+
+        <div class="article-style" style="max-width: 800px; margin: 0 auto;">
+          <p>
+            DDMG produces satellite-derived damage assessment datasets using Sentinel-1 SAR coherent change detection.
+            These datasets are made available for research, humanitarian, and journalistic use under a
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> license.
+          </p>
+          <p>
+            Each dataset includes damage classification rasters (Cloud-Optimized GeoTIFF) and damage vector boundaries (GeoJSON).
+            See the accompanying metadata for methodological details, thresholds, and temporal coverage.
+          </p>
+
+          <h2>Available Datasets</h2>
+
+          {{/* Download table rendered dynamically by data-gate.js */}}
+          <div id="download-table"></div>
+
+          <h2>File Formats</h2>
+          <ul>
+            <li><strong>Damage raster</strong> (<code>.tif</code>) &mdash; Cloud-Optimized GeoTIFF with 6 bands: damage mask, z-score, pre-conflict mean coherence, pre-conflict std, conflict mean coherence, valid-for-monitoring mask.</li>
+            <li><strong>Damage vectors</strong> (<code>.geojson</code>) &mdash; Polygonized damage footprints with per-feature attributes.</li>
+          </ul>
+
+          <h2>Citation</h2>
+          <p>
+            If you use these datasets in published work, please cite the relevant DDMG publication(s)
+            listed on our <a href="/publication/">Publications</a> page.
+          </p>
+
+          <h2>Contact</h2>
+          <p>
+            For questions about data access or methodology, please <a href="/contact/">contact us</a>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</article>
+
+{{ $js := resources.Get "js/data-gate.js" }}
+{{- if hugo.IsProduction -}}
+  {{ $js = $js | minify | fingerprint "md5" }}
+{{- end -}}
+<script src="{{ $js.RelPermalink }}" defer></script>
+
+{{- end -}}

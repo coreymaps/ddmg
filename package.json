@@ -1,0 +1,8 @@
+{
+  "name": "ddmg-site",
+  "private": true,
+  "description": "Netlify Function dependencies for DDMG site",
+  "dependencies": {
+    "@google-cloud/storage": "^7.0.0"
+  }
+}
