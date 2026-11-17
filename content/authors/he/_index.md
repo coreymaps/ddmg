@@ -14,8 +14,8 @@ role: 'Associate Professor'
 
 # Organizations/Affiliations
 organizations:
-- name: 'Kent State University'
-  url: "https://www.kent.edu/node/he-yin"
+- name: 'University of Utah'
+  url: "https://profiles.faculty.utah.edu/u6077271"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
